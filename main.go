@@ -3,9 +3,11 @@ package main
 import "fmt"
 
 func main(){
-	// slice
-var numeros = []int{1, 2, 3, 4, 5}
-fmt.Println(numeros)
-numeros = append(numeros, 7, 8, 9)
-fmt.Println(numeros)
+	var nome = []string{"murilo","nakaguma", "manu", "lucas", "gobetti"}
+	fmt.Println(nome)
+	rangeOne := nome[:2]
+	fmt.Println(rangeOne)
+	rangeTwo := nome[3:]
+	fmt.Println(rangeTwo)
+	fmt.Println(nome[2])
 }
